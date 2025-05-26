@@ -1,0 +1,21 @@
+# 🚀 Dockerized Java Application
+
+This is a simple Java program that prints the current date and time. The goal of this project is to practice Docker fundamentals by containerizing a basic Java application.
+
+---
+
+## 📌 Features
+
+- ✅ Simple Java program to display current date and time
+- 🐳 Dockerized using a custom Dockerfile
+- 🛠️ Built and run inside a Docker container
+- 🔁 Learned how rebuilding images is necessary after code changes
+
+---
+
+## 🧱 Tech Stack
+
+- Java (JDK)
+- Docker
+
+---
