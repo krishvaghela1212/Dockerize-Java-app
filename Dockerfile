@@ -1,8 +1,9 @@
-FROM openjdk:17-jdk-alpine
+FROM openjdk:17
 
 WORKDIR /app
-COPY . .
+
+COPY ./src ./src
 
 RUN javac src/main.java
 
-CMD ["java","main"]
+CMD ["java", "-cp", "src", "main"]
